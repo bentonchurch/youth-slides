@@ -4,12 +4,26 @@
 /* Material icons */
 @import url('https://cdn.jsdelivr.net/npm/material-icons@1.13.12/iconfont/material-icons.min.css');
 
-/* Other styles */
-@import url('./body-column.css');
+/* Themes */
+@import "./themes/light.css";
+@import "./themes/dark.css";
+
+/* Component styles */
+@import './body-column.css';
+@import "./common/text.css";
+@import "./common/hr.css";
+@import "./common/inputs/index.css";
+@import "./common/lists.css";
+@import "./common/tables.css";
 
 * {
   font-family: "Poppins", serif;
   user-select: none;
+  accent-color: var(--primary-color);
+}
+
+html {
+  background-color: var(--background-color);
 }
 
 body {
