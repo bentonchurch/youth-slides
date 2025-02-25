@@ -81,7 +81,7 @@ export class TabLoader {
    * @returns A CORS Proxy url
    */
   static proxyUrl(url) {
-    return `https://corsproxy.io/?${encodeURIComponent(url)}`;
+    return `https://corsproxy.io/?url=${url}`;
   }
 
   /**
