@@ -1,0 +1,4 @@
+/* Progress element */
+progress, meter {
+  accent-color: var(--primary-color);
+}

@@ -1,0 +1,10 @@
+details {
+    border: none;
+    outline: var(--border-color) solid 1px;
+    padding: 0.5em 1em;
+    border-radius: 1.4em;
+}
+
+details summary {
+
+}

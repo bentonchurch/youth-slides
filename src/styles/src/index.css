@@ -1,0 +1,20 @@
+@import "./themes/light.css";
+@import "./themes/dark.css";
+
+@import "./common/text.css";
+@import "./common/hr.css";
+@import "./common/inputs/index.css";
+@import "./common/quotes.css";
+@import "./common/modal.css";
+@import "./common/details.css";
+@import "./common/progress.css";
+@import "./common/lists.css";
+@import "./common/tables.css";
+
+html {
+  background-color: var(--background-color);
+}
+
+* {
+  accent-color: var(--primary-color);
+}

@@ -1,0 +1,28 @@
+dialog {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border: none;
+  border-radius: 1em;
+  padding: 1em 2em;
+}
+
+dialog::backdrop {
+  animation: dialog-backdrop-fade 0.5s ease backwards;
+  animation-direction: reverse;
+}
+
+dialog[open]::backdrop {
+  animation: dialog-backdrop-fade 0.5s ease forwards;
+}
+
+@keyframes dialog-backdrop-fade {
+  from {
+    background: #00000000;
+  }
+  to{
+    background: #00000048;
+  }
+}
