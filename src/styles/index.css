@@ -12,12 +12,16 @@
 @import './body-column.css';
 @import "./common/text.css";
 @import "./common/hr.css";
-@import "./common/inputs/index.css";
 @import "./common/lists.css";
 @import "./common/tables.css";
+@import "./common/inputs/index.css";
+
+/* Utility css */
+@import "./util/flex.css";
+@import "./util/size.css";
+@import "./util/misc.css";
 
 * {
-  font-family: "Poppins", serif;
   user-select: none;
   accent-color: var(--primary-color);
 }
@@ -28,4 +32,16 @@ html {
 
 body {
   margin: 0px;
+}
+
+.material-icons-round {
+  font-size: 1.5em;
+}
+
+.spinner {
+  font-size: 48px;
+  width: 1em;
+  height: 1em;
+  background-image: var(--spinner-icon);
+  background-size: 1em 1em;
 }
